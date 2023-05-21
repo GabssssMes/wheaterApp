@@ -4,7 +4,7 @@ body {
   margin: 0;
   height: 100%;
   color: white;
-  background: url("/images/thunderstorm_darken.png");
+  background: url("./images/thunderstorm_darken.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
