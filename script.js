@@ -1,7 +1,7 @@
 function getWheatherAPI(location) {
   if (location == "") return;
   fetch(
-    "http://api.weatherapi.com/v1/forecast.json?key=0a8883f531c0472c811161549231605&q=" +
+    "https://api.weatherapi.com/v1/forecast.json?key=0a8883f531c0472c811161549231605&q=" +
       location +
       "&days=3&aqi=no&alerts=no",
     { mode: "cors" }
